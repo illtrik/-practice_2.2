@@ -3,7 +3,7 @@ import os
 import requests
 
 URL = "https://www.cbr-xml-daily.ru/daily_json.js"
-SAVE_FILE = "save.json"
+SAVE_FILE = "resourse/save.json"
 
 def load_exchange_rates():
     response = requests.get(URL)
